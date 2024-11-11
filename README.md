@@ -124,11 +124,11 @@ All dependencies are listed in `requirements.txt`.
    cd your_project
    ```
 
-2. **Set up a virtual environment**:
+2. **Set up a Conda environment**:
 
    ```bash
-   python3 -m venv venv
-   source venv/bin/activate  # Windows: venv\Scripts\activate
+   conda create --name your_env_name python=3.6  # or a higher Python version as needed
+   conda activate your_env_name
    ```
 
 3. **Install dependencies**:
