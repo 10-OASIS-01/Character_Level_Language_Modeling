@@ -41,7 +41,7 @@ The models are trained on the Tiny Shakespeare dataset, a compact collection of 
 ## Project Structure
 
 ```
-your_project/
+Character_Level_Language_Modeling/
 ├── data/
 │   ├── __init__.py
 │   ├── dataset.py
