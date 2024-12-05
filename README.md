@@ -43,29 +43,23 @@ The models are trained on the Tiny Shakespeare dataset, a compact collection of 
 ```
 Character_Level_Language_Modeling/
 ├── data/
-│   ├── __init__.py
 │   ├── dataset.py
 │   ├── evaluate_string.json
 │   └── input.txt
 ├── models/
-│   ├── __init__.py
 │   ├── transformer.py
 │   ├── rnn.py
 │   └── gru.py
 ├── utils/
-│   ├── __init__.py
 │   ├── helpers.py
 │   └── sampling.py
 ├── scripts/
-│   ├── __init__.py
 │   ├── train.py
 │   ├── generate_samples.py
 │   └── evaluate_model.py
 ├── tests/
 │   └── test_models.py
 ├── output_directory/
-│   ├── events.out.tfevents.1731235237.LAPTOP-H8HJ1JCA.35892.0
-│   ├── events.out.tfevents.1731235362.LAPTOP-H8HJ1JCA.13996.0
 │   └── model.pt
 ├── requirements.txt
 ├── README.md
@@ -120,8 +114,8 @@ All dependencies are listed in `requirements.txt`.
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/your_username/your_project.git
-   cd your_project
+   git clone https://github.com/10-OASIS-01/Character_Level_Language_Modeling.git
+   cd Character_Level_Language_Modeling
    ```
 
 2. **Set up a Conda environment**:
