@@ -1,4 +1,4 @@
-# Character-Level Language Modeling Project
+# Character-Level Language Modeling
 
 This project implements character-level language modeling using Transformer, RNN, and GRU architectures, specifically trained on the tiny Shakespeare dataset. The models learn to predict the next character in a sequence, enabling the generation of text that stylistically resembles Shakespeare's writing.
 
